@@ -25,7 +25,7 @@ extension UIViewController {
                     self,
                     &AssociatedKeys.DescriptiveName,
                     newValue as NSString?,
-                    UInt(OBJC_ASSOCIATION_RETAIN_NONATOMIC)
+                    .OBJC_ASSOCIATION_RETAIN_NONATOMIC
                 )
             }
         }
